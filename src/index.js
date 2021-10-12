@@ -6,6 +6,23 @@ const promptList = [{
     name: 'name',
     default: "test_user" // 默认值
 }, {
+    type: "list",
+    message: "你最喜欢的手机品牌是？",
+    choices: [
+        { name: '小米', value: 'mi' },
+        { name: '华为', value: 'huawei' },
+        { name: '苹果', value: 'apple' }
+    ],
+    name: "fruit"
+},{
+    type: 'password',
+    name: 'pw',
+    message: '密码',
+},{
+    type: 'editor',
+    name: 'content',
+    message: '内容'
+}, {
     type: "confirm",
     message: "是否使用监听？",
     name: "watch",
