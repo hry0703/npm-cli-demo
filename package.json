@@ -1,0 +1,19 @@
+{
+  "name": "hry0703npm",
+  "version": "1.0.2",
+  "description": "测试npm发布流程",
+  "main": "index.js",
+  "bin": {
+    "cli": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hrylerna/vite-cli": "0.0.2",
+    "@hrylerna/vite-project": "0.0.2",
+    "commander": "^8.2.0"
+  }
+}
