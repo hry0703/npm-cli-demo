@@ -2,6 +2,7 @@
   "name": "hry0703npm",
   "version": "1.0.2",
   "description": "测试npm发布流程",
+  "type": "commonjs",
   "main": "index.js",
   "bin": {
     "cli": "bin/index.js"
@@ -14,6 +15,12 @@
   "dependencies": {
     "@hrylerna/vite-cli": "0.0.2",
     "@hrylerna/vite-project": "0.0.2",
-    "commander": "^8.2.0"
+    "chalk": "^4.1.2",
+    "commander": "^8.2.0",
+    "inquirer": "^8.2.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0"
   }
 }
